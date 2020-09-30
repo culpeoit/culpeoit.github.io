@@ -25,7 +25,7 @@ Ya con nuestra VM lista necesitamos instalar Docker. En este caso, lo más recom
 
 Instalé los paquetes de `containerd`, `docker-ce-cli` y `docker-ce` . Acto seguido agregué mi usuario al grupo de docker:
 
-```
+```bash
 usermod -aG docker culpeo
 ```
 
@@ -34,17 +34,17 @@ usermod -aG docker culpeo
 Otro componente importante es `kubectl`, pero es bastante facil de instalar:
 
 Descargamos el binario:
-```
+```bash
 curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
 ```
 
 Lo hacemos ejecutable:
-```
+```bash
 chmod +x ./kubectl
 ```
 
 Lo movemos a nuestro PATH:
-```
+```bash
 sudo mv ./kubectl /usr/local/bin/kubectl
 ```
 
@@ -55,13 +55,13 @@ Y listo! Para más información también pùeden visitar la [documentación de k
 Y obviamente no podía faltar el mismo `minikube`:
 
 Descargamos el binario:
-```
+```bash
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
   && chmod +x minikube
 ```
 
 Lo hacemos ejecutable:
-```
+```bash
 sudo mkdir -p /usr/local/bin/
 sudo install minikube /usr/local/bin/
 ```
@@ -70,13 +70,13 @@ sudo install minikube /usr/local/bin/
 
 Si todo salió bien, ya deberíamos poder inicializar minikube:
 
-```
+```bash
 minikube start --driver=docker
 ```
 
 Y deberiamos tener una salida similar a esta:
 
-```
+```bash
 culpeo@k3s-minikube:$ minikube start --driver=docker
 😄  minikube v1.13.1 on Debian 10.6
 ✨  Using the docker driver based on existing profile
@@ -92,7 +92,7 @@ culpeo@k3s-minikube:$ minikube start --driver=docker
 🏄  Done! kubectl is now configured to use "minikube" by default
 ```
 
-Comprobando que esta funcionando:
+Comprobando que está funcionando:
 ```console
 culpeo@k3s-minikube:/root$ minikube status
 minikube
