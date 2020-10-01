@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Instalando k3s facil: Minikube"
+title:  "Instalando k3s fácil: Minikube"
 date:   2020-09-29 
 categories: kubernetes
 ---
