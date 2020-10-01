@@ -4,7 +4,7 @@ title:  "Simple HTTP server en Python3"
 categories: misc
 ---
 
-Hoy vengo con algo rápido y cortito, un comando que últimamente uso mucho en mi lab personal: `pyton3 -m http.server 8080`
+Hoy vengo con algo rápido y cortito, un comando que últimamente uso mucho en mi lab personal: `python3 -m http.server 8080`
 
 ¿Qué hace esto? Simplemente levanta un server HTTP en el puerto 8080 con Python3.
 
