@@ -96,6 +96,6 @@ El examen no es imposible. Si algo no les sale, avancen y vuelvan a intentar má
 
 Es un examen que no te permite memorizar, porque no hay respuestas, son todas tareas de configuración (bueno hay un par, pero son prácticas, no teóricas), por lo que teniendo bien en claro los conceptos es fácil de resolver. 
 
-Y eso es todo, hice un post en inglés de que NO hay que hacer cuando desaprobé el primer intento, si tienen alguna duda más me pueden hablar en [Linkedin](https://linkedin.com/in/hielposfranco) o [Twitter](https://twitter.com/fhielposar) y con gusto los voy a ayudar.
+Y eso es todo, hice [un post en inglés de que NO hay que hacer cuando desaprobé el primer intento](https://fhielpos.ar/failing-cka.html), si tienen alguna duda más me pueden hablar en [Linkedin](https://linkedin.com/in/hielposfranco) o [Twitter](https://twitter.com/fhielposar) y con gusto los voy a ayudar.
 
-Éxitos! 
+Éxitos!     
