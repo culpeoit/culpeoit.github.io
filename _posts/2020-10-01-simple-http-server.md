@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simple HTTP server en Python3"
-categories: misc
+categories: python
 ---
 
 Hoy vengo con algo rápido y cortito, un comando que últimamente uso mucho en mi lab personal: `python3 -m http.server 8080`
